@@ -3,10 +3,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <title>Quiz Game</title>
     <link rel="stylesheet" href="scss/style.scss">
+    <link href="https://fonts.googleapis.com/css2?family=Federo&display=swap" rel="stylesheet">
 </head>
 <body>
     <script src="js/index.js"></script>
+    <div class="container">
+        <div id="questions" class="hide">
+            <div id="question" class="quetion-text">Question</div>
+            <div id="answer-btn" class="answer-button">
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button>
+            </div>
+        </div>
+        <div class="controls">
+            <button id="starting-btn" class="start-btn">Start</button>
+            <button id="nextnext-btn"  class="next-btn hide">Next</button>
+        </div>
+    </div>
 </body>
 </html>
