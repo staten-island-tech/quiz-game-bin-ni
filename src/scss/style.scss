@@ -48,5 +48,31 @@ body.wrong {
 }
 
 .btn:hover {
-  border-color: black;
+  box-shadow: 10px 15px 1rem;
+}
+
+.btn.correct {
+  --hue: var(--hue-correct);
+}
+
+.btn.wrong {
+  --hue: var(--hue-wrong);
+}
+
+.start-btn,
+.next-btn {
+  font-size: 1.5rem;
+  font-family: "Federo", sans-serif;
+  text-transform: uppercase;
+  padding: 10px 20px;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hide {
+  display: none;
 }
