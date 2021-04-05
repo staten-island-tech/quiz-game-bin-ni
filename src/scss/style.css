@@ -22,6 +22,8 @@ body {
       -ms-flex-align: center;
           align-items: center;
   background-color: hsl(var(--hue), 100%, 20%);
+  width: 100vw;
+  height: 100vh;
 }
 
 body.correct {
@@ -38,8 +40,8 @@ body.wrong {
   padding: 10px;
   -webkit-box-shadow: 0 0 10px 2px;
           box-shadow: 0 0 10px 2px;
-  width: 80%;
-  height: 30vh;
+  width: 800px;
+  max-width: 80%;
 }
 
 .answer-button {
