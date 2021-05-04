@@ -6,15 +6,11 @@
 }
 
 .btn {
-  --hue: var(--hue-neutral);
-  border: 1px solid hsl(var(--hue), 100%, 30%);
-  background-color: hsl(var(--hue), 100%, 50%);
-  border-radius: 5px;
-  padding: 5px 10px;
-  color: lightcyan;
+  border-radius: 20px;
+  padding: 15px 20px;
   font-family: "Federo", sans-serif;
   font-size: 30px;
-  background-color: rgb(31, 192, 228);
+  background-color: rgba(212, 226, 82, 0.85);
 }
 
 .btn:hover {
@@ -22,11 +18,11 @@
 }
 
 .btn.correct {
-  --hue: var(--hue-correct);
+  background-color: #4caf50;
 }
 
 .btn.wrong {
-  --hue: var(--hue-wrong);
+  background-color: #ff0000;
 }
 
 .start-btn,
